@@ -1,0 +1,4 @@
+[submodule ".base"]
+	path = .base
+	url = ../advent-of-code
+	branch = base-v1
