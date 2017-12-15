@@ -7,8 +7,7 @@ int main() {
 
 	int c;
 	while((c = getchar()) != EOF) {
-		if(c == '(') ++floor;
-		else if(c == ')') --floor;
+		floor += (c - '(') * -2 + 1;
 		if(basement < 0) {
 			++i;
 			if(floor < 0) basement = i;
